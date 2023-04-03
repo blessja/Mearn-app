@@ -5,6 +5,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please Enter Your Name"],
   },
+  vehicleModel:  {
+    type: String,
+    required: [true, "Please Enter Your Vehicle Model"],
+  },
   email: {
     type: String,
     required: [true, "Please Enter Your Email"],
